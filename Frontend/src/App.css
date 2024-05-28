@@ -1,0 +1,210 @@
+.heading  {
+    text-align: left;
+    padding: 25px;
+    background-color:rgb(198,197,197);
+     }
+
+.button {
+        background-color:#7cb8f8; 
+        border-radius: 4px;
+        color: white;
+        padding: 15px 32px ;
+        text-align: center;
+        font-size: 16px;
+        margin:11% 13%;
+        width:75%;
+        
+       
+}
+
+.checkbox  {
+    background-color: rgb(196, 195, 195);
+    width: 70%;
+    height:40%;
+    font-style:Arial;
+    margin:10px 30px;
+    padding:-7%;
+    
+  }
+  .button2{
+    border-radius:4px;
+        padding:3%;
+        width:70%;
+        text-align: center;
+        background-color: rgb(236, 234, 234);
+        margin: 15%;
+}
+
+
+.table{
+    background-color: black;
+    margin:2% -2%;
+    
+    
+}
+.left{
+    float: left;
+}
+
+
+.right{
+    float: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50%;
+    padding: 1.5%;
+    margin-left:25%;
+ 
+}
+
+
+.button3{
+    border-radius: 4px;
+    height:35px;
+    font-family: Arial;
+    margin: auto;
+    width: 60px;
+
+}
+
+.button4{
+    border-radius: 4px;
+    height:30px;
+    font-family: Arial;
+    width: 5%;
+
+ }
+
+.page2{
+    margin:2%;
+}
+.page2table{
+    float: left;
+    width: 40%
+}
+.piechart{
+    float: right;
+    margin: -25% 25%;
+
+}
+.div4{
+    background-color: rgb(208, 208, 208);
+    height:40%;
+    width:37%;
+    padding:1% 1%;
+   
+
+}
+
+.button5{
+    border-radius: 4px;
+    color:rgb(82, 79, 79);
+    padding:4px;
+    width: 500px;;
+}
+
+.button6{
+    border-radius:4px;
+    padding:1%;
+    width:16%;
+    text-align: center;
+    background-color: rgb(236, 234, 234);
+}
+
+.button7{
+    border-radius:4px;
+    padding:7px;
+    width:10%;
+    text-align: center;
+    background-color: rgb(236, 234, 234);
+}
+
+.div5{
+    margin: 3% 1.5%;
+}
+
+.left2{
+  
+    margin: -10% ;
+}
+
+.delete-button {
+    background-color: lightcoral;
+    border: none;
+    color: red; /* Text color */
+    cursor: pointer; /* Cursor style */
+    font-size: 17px; /* Font size */
+    margin-left: 10px; /* Space between the input and the delete button */
+    border-radius:4px; 
+}
+
+.delete-button:hover {
+    color: darkred; /* Darker red on hover for emphasis */
+  }
+  
+.tableborder{
+    border:2px solid  rgb(128,128,128) ;
+}  
+
+
+
+/* Add media query for mobile devices */
+@media  (max-width: 667px) {
+     
+    .tableborder{
+        width:65%;
+    }
+    .button{
+        width:75%;
+    }
+    .checkbox{
+        width:75%;
+    }
+    .right{
+        
+        width: 97%;
+        margin-left: 0%;
+    }
+   
+   .page2 {
+       width:95%;
+    }
+
+   .button3 {
+        width: 20%; /* Make the button wider on small screens */
+        font-size: 14px; /* Smaller font size */
+    }
+
+   .page2table {
+        width: 100%;
+    }
+
+   .piechart {
+        margin-top: 4%; /* More space between elements */
+        margin-right: -3%;
+   }    
+
+   .div4 {
+        width: 96%; /* Full width on small screens */
+        padding: 4% 2%; /* Reduced padding */
+    }
+    .button4{
+        width:20%;
+    
+    }
+
+   .button5 {
+        width: 80%; /* Full width on small screens */
+        padding: 2px; /* Reduced padding */
+    }
+
+   .button6,.button7 {
+        width: 30%; /* Full width on small screens */
+        padding: 0.5%; /* Reduced padding */
+    }
+    
+    .delete-button {
+    margin-bottom: 10px;
+    }
+}

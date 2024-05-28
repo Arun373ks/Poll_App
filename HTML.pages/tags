@@ -1,0 +1,6 @@
+1. Read the file polldata.fps
+2. Print each question (starting from "Is I phone.." )
+3. Seperate sections using "::" (split)
+4. Q, O, V, T
+5. print{ Question: Q, “OptionVote”: O, “Tags”: T}
+6. [{},{},{},{},{},{}]+
